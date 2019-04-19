@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #98fb98;
     margin: 0;
@@ -41,4 +45,17 @@ body {
     background: url(../img/product-4.jpg) no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+@media(min-width:480px){
+    .gallery {
+        width: 80vw;
+        justify-content: space-around;
+    }
+
+    .gallery__item {
+        width: 45%;
+        height: 45vw;
+        margin-bottom: 5vh;
+    }
 }
