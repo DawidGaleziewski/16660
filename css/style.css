@@ -1,3 +1,26 @@
 body {
     background-color: #98fb98;
 }
+
+.gallery {
+    margin-top: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.gallery__item {
+    width: 80vw;
+    height: 80vw; 
+    background-color: white;
+    margin-bottom: 5vh;
+}
+
+.product-1 {
+    background: url(../img/product-1.jpg);
+}
+
+.product-2 {
+    background: url(../img/product-2.jpg);
+}
